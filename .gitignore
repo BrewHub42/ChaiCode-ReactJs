@@ -1,0 +1,70 @@
+#############################################
+# Core: Logs
+#############################################
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+#############################################
+# Dependencies (ignore every nested workspace's node_modules)
+#############################################
+node_modules/
+
+#############################################
+# Build outputs (Vite, SSR, etc.)
+#############################################
+dist
+dist-ssr
+build
+.next
+.turbo
+
+#############################################
+# Caches & tooling artifacts
+#############################################
+.eslintcache
+.parcel-cache
+.vite
+*.tsbuildinfo
+.pnpm-store
+
+#############################################
+# Coverage / reports
+#############################################
+coverage
+.nyc_output
+
+#############################################
+# Environment & local config (do not commit secrets)
+#############################################
+.env
+.env.*
+!.env.example
+*.local
+
+#############################################
+# Editor / OS specific
+#############################################
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#############################################
+# Misc
+#############################################
+# Optional lockfiles to ignore (uncomment if you decide not to commit per-project locks)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+

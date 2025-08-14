@@ -1,0 +1,11 @@
+{
+  "projectName": "010-React-based-TanStack-Routing-Project-Sample",
+  "mode": "file-router",
+  "typescript": true,
+  "tailwind": true,
+  "packageManager": "npm",
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": []
+}
