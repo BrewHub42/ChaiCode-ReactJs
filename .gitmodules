@@ -1,3 +1,6 @@
 [submodule "Projects/Quibly-Blogs"]
 	path = Projects/Quibly-Blogs
 	url = https://github.com/Maverick341/Quibly-Blogs.git
+[submodule "Projects/Quibly-Serverless"]
+	path = Projects/Quibly-Serverless
+	url = https://github.com/Maverick341/Quibly-Serverless
